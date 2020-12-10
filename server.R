@@ -57,7 +57,6 @@ shinyServer(function(input, output, session) {
     })
     
     # Save form data
-    responses_dir <- 'responses'
     fields_scores <- paste0('criteria_met', seq_len(nrow(criteria_text)))
     fields_comments <- paste0('criteria_comment', seq_len(nrow(criteria_text)))
     
@@ -75,12 +74,11 @@ shinyServer(function(input, output, session) {
     })
     
     save_data <- function(data) {
-        filename <- 'responses.csv'
-        filepath <- file.path(responses_dir, filename)
-        write.table(data, file = filepath,
-                    append = file.exists(filepath),
+        outfile <- 'responses.csv'
+        write.table(data, file = outfile,
+                    append = file.exists(outfile),
                     row.names = FALSE, quote = TRUE, sep = ',',
-                    col.names = !file.exists(filepath))
+                    col.names = !file.exists(outfile))
     }
     
     reset_form <- function() {

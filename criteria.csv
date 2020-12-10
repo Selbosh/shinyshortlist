@@ -1,0 +1,17 @@
+CritID,Description,Essential
+1,Good undergraduate degree (2:1 or higher) (or equivalent) in data or computer science or good undergraduate degree with postgraduate experience of data or computer science.,Yes
+2,"Experience writing, testing and documenting simple scripts for data preparation, manipulation and/or analysis.",Yes
+3,"Understanding of open science (reproducibility, etc.).",Yes
+4,Experience of assessing the completeness and quality of data.,Yes
+5,Experience of applying statistical methods for longitudinal data.,Yes
+6,"Experience of statistical computing, particularly in R or python.",Yes
+7,"Familiarity with a range of data storage formats, and experience in transforming between them.",Yes
+8,Proven ability to work effectively as part of a multi-disciplinary team.,Yes
+9,"Excellent communication skills in English, including explaining data analysis and processing methods to both specialist and non-specialist audiences.",Yes
+10,Ability to work independently and balance challenging workloads.,Yes
+11,Good understanding of data governance. ,Yes
+1,An interest or experience in machine learning.,No
+2,An interest or experience in health data.,No
+3,An interest or experience in causal inference.,No
+4,Experience of working in an epidemiology research environment.,No
+5,Demonstrable understanding of basic concepts in observational epidemiology (such as bias and confounding) and statistical methods to minimise their impact.,No
