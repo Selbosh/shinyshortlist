@@ -9,7 +9,11 @@ December 2020
 
 Before running the Shiny app, make sure to add all your candidate names to the `candidate_names.txt` file - one per line.
 
-You will also need an (empty) `responses/` folder to store the outputs.
+You can run a Shiny app by opening either the `server.R` or `ui.R` files in RStudio and clicking "Run App".
+Alternatively (if you don't use RStudio), in the R command line, enter the code:
+```r
+shiny::runApp('/path/to/shortlister')
+```
 
 If adapting this to a different job role, please also edit the file `criteria.csv` with the descriptions (and number) of essential job criteria.
 
